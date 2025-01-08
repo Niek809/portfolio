@@ -4,10 +4,25 @@
     box-sizing: border-box;
 }
 
-body {
+.body-home {
     background-color: #26262E;
+    height: 100%;
 }
 
+.body-about {
+    background-color: #26262E;
+    height: 100%;
+}
+
+.body-projects {
+    background-color: #26262E;
+    height: 1080px;
+}
+
+.body-contact {
+    background-color: #26262E;
+    height: 1835px;
+}
 
 a {
   text-decoration: none;
@@ -257,105 +272,6 @@ a {
     }
 }
 
-@media only screen and (max-width: 800px) {
-    .naam-header {
-        display: none;
-    }
-
-    .buttons-header {
-        display: flex;
-        align-items: top;
-        justify-content: center;
-        margin-right: 0px;
-        height: 212px;
-    }
-
-    .container-header-home {
-        background-color: #9D9D9D64;
-        border-radius: 15px;
-        width: 65px;
-        height: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        transition: height 0.3s ease-in-out;
-        cursor: pointer;
-        border: none;
-        margin-bottom: 40px;
-    }
-    
-    .container-header-home:hover {
-        height: 85px;
-        width: 65px;
-    }
-    
-    .container-header-about {
-        background-color: #9D9D9D64;
-        border-radius: 15px;
-        width: 65px;
-        height: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        transition: height 0.3s ease-in-out;
-        cursor: pointer;
-        border: none;
-        margin-bottom: 40px;
-    }
-    
-    .container-header-about:hover {
-        height: 85px;
-        width: 65px;
-    }
-    
-    .container-header-projects {
-        background-color: #9D9D9D64;
-        border-radius: 15px;
-        width: 65px;
-        height: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        transition: height 0.3s ease-in-out;
-        cursor: pointer;
-        border: none;
-        margin-bottom: 40px;
-    }
-    
-    .container-header-projects:hover {
-        height: 85px;
-        width: 65px;
-    }
-    
-    .container-header-contact {
-        background-color: #9D9D9D64;
-        border-radius: 15px;
-        width: 65px;
-        height: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        transition: height 0.3s ease-in-out;
-        cursor: pointer;
-        border: none;
-        margin-bottom: 40px;
-    }
-    
-    .container-header-contact:hover {
-        height: 85px;
-        width: 65px;
-    }
-
-    .name-header {
-        font-size: 15px;
-        font-weight: 600;
-    }
-}
-
 /* Eind header */
 
 
@@ -412,8 +328,8 @@ a {
     font-style: normal;
     color: #fff;
     margin-left: 170px;
+    cursor: default;
 }
-
 
 .inleiding-naam {
     width: 45%;
@@ -427,6 +343,7 @@ a {
     color: #E8E8E8;
     margin-top: 130px;
     margin-bottom: 30px;
+    cursor: default;
 }
 
 .inleiding-naam-klein {
@@ -434,6 +351,7 @@ a {
     font-size: 55px;
     font-style: bold;
     color: #C6C6C6;
+    cursor: default;
 }
 
 @media only screen and (max-width: 1700px) {
@@ -589,6 +507,8 @@ a {
 
 /* Eind body home */
 
+
+
 /* Begin body about */
 
 .about-pagina {
@@ -611,6 +531,7 @@ a {
     width: 1324px;
     gap: 64px;
     margin-top: 78px; 
+    cursor: default;
 }
 
 .tekst-groot {
@@ -618,6 +539,7 @@ a {
     font-size: 86px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+    cursor: default;
 }
 
 .tekst-klein {
@@ -625,6 +547,7 @@ a {
     font-size: 58px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    cursor: default;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -778,39 +701,93 @@ a {
     }
 }
 
-
 /* Eind body about */
+
+
 
 /* Begin body projects */
 
 
 
-
-
 /* Eind body projects */
+
+
 
 /* Begin body contact */
 
+.vragen {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
 
+.vragen-box {
+    background-color: #1F1F25;
+    width: 858px;
+    height: 287px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 5px solid #000000;
+    gap: 96px;
+}
 
+.tekst-vragen-groot {
+    color: #ffffff50;
+    font-size: 64px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: default;
+}
 
+.tekst-vragen-klein {
+    color: #ffffff50;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: default;
+}
+
+.contact-mij-bereiken {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 156px;
+}
+
+.contact-mij-bereiken-box {
+    background-color: #1F1F25;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 5px solid #000000;
+}
+
+.contact-mij-bereiken-box-tekst {
+    color: #ffffff50;
+    font-size: 64px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: default;
+}
 
 /* Eind body contact */
 
+
+
 /* Begin footer */
 
-.niks {
-    position: absolute;
-    width: 75%;
-    height: 100px;
-}
 
-.logos {
-    position: absolute;
-    width: 25%;
-    height: 100px;
-    color: #000000;
-}
 
 /* Eind footer */
 
