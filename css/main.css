@@ -25,7 +25,7 @@
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* Begin header */
@@ -45,7 +45,7 @@ a {
     flex-direction: column;
 }
 
-.naam { 
+.naam {
     color: #ffffff50;
     font-size: 64px;
     font-weight: 1;
@@ -269,7 +269,7 @@ a {
     flex-direction: column;
     width: 1324px;
     gap: 64px;
-    margin-top: 78px; 
+    margin-top: 78px;
     cursor: default;
 }
 
@@ -351,8 +351,8 @@ a {
 
 .progammas {
     width: auto;
-    height: 90px;
-    margin-top: 25px;
+    height: 80px;
+    margin-top: 35px;
 }
 
 .button-source-website {
@@ -405,7 +405,6 @@ a {
     background-image: url(../images/schermafbeelding-2024-11-25-111858.png);
     border-radius: 65px;
 }
-
 
 .box-in-mastermind {
     width: 708px;
@@ -583,8 +582,8 @@ a {
     background-color: #26262E;
     padding: 20px 0;
     margin-right: 20px;
-    position: fixed; 
-    bottom: 0; 
+    position: fixed;
+    bottom: 0;
     right: 0;
 }
 
@@ -595,8 +594,8 @@ a {
     background-color: #26262E;
     padding: 20px 0;
     margin-top: 300px;
-    margin-right: 20px;  
-    bottom: 0; 
+    margin-right: 20px;
+    bottom: 0;
     right: 0;
 }
 
@@ -605,33 +604,28 @@ a {
 /* Begin responsive */
 
 @media only screen and (max-width: 1800px) {
+
+    /* --------projects--------*/
+    .projects {
+        flex-direction: column;
+    }
+
+    .tekst-projects {
+        margin-left: 100px;
+    }
+
     /* --------contact--------*/
     .contact-mij-bereiken-box {
-        background-color: #1F1F25;
         width: 350px;
         height: 350px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50px;
-        border: 5px solid #000000;
-        cursor: pointer;
     }
-    
+
     .contact-mij-bereiken-box-tekst {
-        color: #ffffff50;
         font-size: 54px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
     }
 
     .contact-mij-bereiken-box-tekst-email {
-        color: #ffffff50;
         font-size: 54px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
-        margin-top: 50px;
     }
 
     .logos {
@@ -651,20 +645,19 @@ a {
 }
 
 @media only screen and (max-width: 1700px) {
+
     /* --------home--------*/
     .image-home-in-img-groot {
         width: 296px;
         height: 296px;
         margin-left: 100px;
-        margin-bottom: 80px;
-        
     }
-    
+
     .image-home-in-img-klein {
         width: 144px;
         margin-left: 100px;
     }
-    
+
     .tekst-code {
         font-family: "Roboto", sans-serif;
         font-size: 165px;
@@ -674,23 +667,18 @@ a {
     }
 
     .inleiding-naam-groot {
-        font-family: "Montserrat", sans-serif;
         font-size: 40px;
-        font-style: bold;
-        color: #E8E8E8;
         margin-top: 130px;
         margin-bottom: 30px;
     }
-    
+
     .inleiding-naam-klein {
-        font-family: "Montserrat", sans-serif;
         font-size: 35px;
-        font-style: bold;
-        color: #C6C6C6;
     }
 }
 
 @media only screen and (max-width: 1500px) {
+
     /* --------header--------*/
     .naam-header {
         display: none;
@@ -703,46 +691,38 @@ a {
         margin-right: 0px;
         height: 212px;
     }
+
     /* --------home--------*/
     .image-home-in-img-groot {
         width: 266px;
         height: 266px;
         margin-left: 50px;
         margin-bottom: 80px;
-        
+
     }
-    
+
     .image-home-in-img-klein {
         width: 120px;
         margin-left: 100px;
     }
-    
+
     .tekst-code {
-        font-family: "Roboto", sans-serif;
         font-size: 130px;
-        font-style: normal;
-        color: #fff;
         margin-left: 130px;
     }
 
     .inleiding-naam-groot {
-        font-family: "Montserrat", sans-serif;
         font-size: 40px;
-        font-style: bold;
-        color: #E8E8E8;
         margin-top: 130px;
         margin-bottom: 30px;
     }
-    
+
     .inleiding-naam-klein {
-        font-family: "Montserrat", sans-serif;
         font-size: 35px;
-        font-style: bold;
-        color: #C6C6C6;
     }
+
     /* --------about--------*/
     .recht-streep {
-        background-color: #000000;
         width: 46px;
         height: 502px;
         border-radius: 1000px;
@@ -751,28 +731,24 @@ a {
     }
 
     .tekst-groot {
-        color: #DEDEDE;
         font-size: 66px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
         margin-left: 10px;
     }
-    
+
     .tekst-klein {
-        color: #DEDEDE;
         font-size: 38px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
         margin-left: 10px;
     }
 }
 
 @media only screen and (max-width: 1400px) {
-     /* --------contact--------*/
+
+    /* --------contact--------*/
     .body-contact {
         display: flex;
         flex-direction: column;
     }
+
     .contact-mij-bereiken {
         width: 100%;
         height: auto;
@@ -785,30 +761,23 @@ a {
     }
 
     .contact-mij-bereiken-box {
-        background-color: #1F1F25;
         width: 350px;
         height: 350px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;    
+        justify-content: center;
         border-radius: 50px;
         border: 5px solid #000000;
         cursor: pointer;
     }
-    
+
     .contact-mij-bereiken-box-tekst {
-        color: #ffffff50;
         font-size: 54px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
     }
 
     .contact-mij-bereiken-box-tekst-email {
-        color: #ffffff50;
         font-size: 54px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
         margin-top: 50px;
     }
 
@@ -829,21 +798,16 @@ a {
 }
 
 @media only screen and (max-width: 1200px) {
+
     /* --------home--------*/
     .inleiding-naam-groot {
-        font-family: "Montserrat", sans-serif;
         font-size: 30px;
-        font-style: bold;
-        color: #E8E8E8;
         margin-top: 130px;
         margin-bottom: 30px;
     }
-    
+
     .inleiding-naam-klein {
-        font-family: "Montserrat", sans-serif;
         font-size: 25px;
-        font-style: bold;
-        color: #C6C6C6;
     }
 
     .image-home-in-img-groot {
@@ -851,22 +815,20 @@ a {
         height: 226px;
         margin-left: 20px;
         margin-bottom: 130px;
-        
+
     }
-    
+
     .image-home-in-img-klein {
         width: 100px;
         margin-left: 100px;
         margin-bottom: 70px;
     }
-    
+
     .tekst-code {
-        font-family: "Roboto", sans-serif;
         font-size: 100px;
-        font-style: normal;
-        color: #fff;
         margin-left: 60px;
     }
+
     /* --------about--------*/
     .recht-streep {
         background-color: #000000;
@@ -878,26 +840,20 @@ a {
     }
 
     .tekst-groot {
-        color: #DEDEDE;
         font-size: 56px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
         margin-left: 10px;
     }
-    
+
     .tekst-klein {
-        color: #DEDEDE;
         font-size: 38px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
         margin-left: 10px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-     /* --------contact--------*/
+
+    /* --------contact--------*/
     .vragen-box {
-        background-color: #1F1F25;
         width: 558px;
         height: 187px;
         display: flex;
@@ -908,25 +864,18 @@ a {
         border: 5px solid #000000;
         gap: 56px;
     }
-    
+
     .tekst-vragen-groot {
-        color: #ffffff50;
         font-size: 44px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
-        cursor: default;
     }
-    
+
     .tekst-vragen-klein {
-        color: #ffffff50;
         font-size: 20px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
-        cursor: default;
     }
 }
 
 @media only screen and (max-width: 800px) {
+
     /* --------header--------*/
     .naam-header {
         display: none;
@@ -941,7 +890,6 @@ a {
     }
 
     .container-header-home {
-        background-color: #9D9D9D64;
         border-radius: 15px;
         width: 100px;
         height: 75px;
@@ -953,14 +901,13 @@ a {
         cursor: pointer;
         border: none;
     }
-    
+
     .container-header-home:hover {
         height: 115px;
         width: 100px;
     }
-    
+
     .container-header-about {
-        background-color: #9D9D9D64;
         border-radius: 15px;
         width: 100px;
         height: 75px;
@@ -972,14 +919,13 @@ a {
         cursor: pointer;
         border: none;
     }
-    
+
     .container-header-about:hover {
         height: 115px;
         width: 100px;
     }
-    
+
     .container-header-projects {
-        background-color: #9D9D9D64;
         border-radius: 15px;
         width: 100px;
         height: 75px;
@@ -991,14 +937,13 @@ a {
         cursor: pointer;
         border: none;
     }
-    
+
     .container-header-projects:hover {
         height: 115px;
         width: 100px;
     }
-    
+
     .container-header-contact {
-        background-color: #9D9D9D64;
         border-radius: 15px;
         width: 100px;
         height: 75px;
@@ -1010,7 +955,7 @@ a {
         transition: height 0.3s ease-in-out;
         border: none;
     }
-    
+
     .container-header-contact:hover {
         height: 115px;
         width: 100px;
@@ -1020,27 +965,22 @@ a {
         font-size: 18px;
         font-weight: 600;
     }
+
     /* --------home--------*/
     .inleiding-naam-groot {
-        font-family: "Montserrat", sans-serif;
         font-size: 20px;
-        font-style: bold;
-        color: #E8E8E8;
         margin-top: 130px;
         margin-bottom: 30px;
     }
-    
+
     .inleiding-naam-klein {
-        font-family: "Montserrat", sans-serif;
         font-size: 15px;
-        font-style: bold;
-        color: #C6C6C6;
     }
 
     .image-home-in-img-groot {
         display: none;
     }
-    
+
     .image-home-in-img-klein {
         display: none;
     }
@@ -1048,9 +988,9 @@ a {
     .tekst-code {
         display: none;
     }
+
     /* --------about--------*/
     .recht-streep {
-        background-color: #000000;
         width: 46px;
         height: 402px;
         border-radius: 1000px;
@@ -1059,34 +999,116 @@ a {
     }
 
     .tekst-groot {
-        color: #DEDEDE;
         font-size: 46px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
         margin-left: 10px;
     }
-    
+
     .tekst-klein {
-        color: #DEDEDE;
         font-size: 28px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
         margin-left: 10px;
+    }
+
+    /* --------projects--------*/
+    .pinkgoose-box {
+        width: 508px;
+        height: 491px;
+    }
+
+    .box-in-pinkgoose {
+        width: 508px;
+        height: 250px;
+    }
+
+    .tekst-pinkgoose {
+        margin-top: 35px;
+    }
+
+    .progammas {
+        height: 50px;
+    }
+
+    .button-source-website {
+        gap: 50px;
+    }
+
+    .button-source {
+        background-color: #47454567;
+        width: 159px;
+        height: 71px;
+        border-radius: 24px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .button-website {
+        background-color: #312D5A24;
+        width: 159px;
+        height: 71px;
+        border-radius: 24px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .img-github {
+        width: 69px;
+        height: 41px;
+    }
+
+    .tekst-pinkgoose-klein {
+        width: 440px;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .tekst-pinkgoose-lang {
+        font-size: 12px;
+    }
+
+    .mastermind-box {
+        width: 508px;
+        height: 491px;
+    }
+
+    .box-in-mastermind {
+        width: 508px;
+        height: 250px;
+    }
+
+    .tekst-mastermind-groot {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .tekst-mastermind {
+        margin-top: 30px;
+    }
+
+    .tekst-mastermind-klein {
+        width: 440px;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .tekst-mastermind-lang {
+        font-size: 12px;
     }
 }
 
 @media only screen and (max-width: 625px) {
+
     /* --------about--------*/
     .tekst-about {
         display: flex;
         flex-direction: column;
         width: 1324px;
         gap: 30px;
-        margin-top: 78px; 
+        margin-top: 78px;
     }
 
     .recht-streep {
-        background-color: #000000;
         width: 46px;
         height: 302px;
         border-radius: 1000px;
@@ -1095,100 +1117,165 @@ a {
     }
 
     .tekst-groot {
-        color: #DEDEDE;
         font-size: 36px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
         margin-left: 10px;
     }
-    
+
     .tekst-klein {
-        color: #DEDEDE;
         font-size: 18px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
         margin-left: 10px;
     }
-    /* --------contact--------*/
-    .vragen {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
+
+    /* --------projects--------*/
+    .pinkgoose-box {
+        width: 408px;
+        height: 491px;
     }
 
-    .vragen-box {
-        background-color: #1F1F25;
-        width: 358px;
-        height: 127px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50px;
-        border: 5px solid #000000;
-        gap: 36px;
-    }
-    
-    .tekst-vragen-groot {
-        color: #ffffff50;
-        font-size: 24px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
-        cursor: default;
-    }
-    
-    .tekst-vragen-klein {
-        color: #ffffff50;
-        font-size: 10px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
-        cursor: default;
-    }
-
-    .contact-mij-bereiken-box {
-        background-color: #1F1F25;
-        width: 250px;
+    .box-in-pinkgoose {
+        width: 408px;
         height: 250px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50px;
-        border: 5px solid #000000;
+    }
+
+    .tekst-pinkgoose {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .progammas {
+        height: 30px;
+    }
+
+    .button-source-website {
+        gap: 50px;
+    }
+
+    .button-source {
+        background-color: #47454567;
+        width: 159px;
+        height: 71px;
+        border-radius: 24px;
+        border: none;
         cursor: pointer;
     }
-    
-    .contact-mij-bereiken-box-tekst {
-        color: #ffffff50;
-        font-size: 34px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
+
+    .button-website {
+        background-color: #312D5A24;
+        width: 159px;
+        height: 71px;
+        border-radius: 24px;
+        border: none;
+        cursor: pointer;
     }
 
-    .contact-mij-bereiken-box-tekst-email {
-        color: #ffffff50;
-        font-size: 34px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
-        margin-top: 50px;
+    .img-github {
+        width: 69px;
+        height: 41px;
     }
 
-    .logos {
-        width: 133px;
-        height: 126px;
+    .tekst-pinkgoose-klein {
+        width: 340px;
     }
 
-    .logos-mail {
-        width: 162px;
-        height: 240px;
+    .tekst-pinkgoose-lang {
+        font-size: 8px;
     }
 
-    .logos-tel {
-        width: 72px;
-        height: 130px;
+    .mastermind-box {
+        width: 408px;
+        height: 491px;
     }
+
+    .box-in-mastermind {
+        width: 408px;
+        height: 250px;
+    }
+
+    .tekst-mastermind-groot {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .tekst-mastermind {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .tekst-mastermind-klein {
+        width: 340px;
+    }
+
+    .tekst-mastermind-lang {
+        font-size: 8px;
+    }
+
+/* --------contact--------*/
+.vragen {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.vragen-box {
+    width: 358px;
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 5px solid #000000;
+    gap: 36px;
+}
+
+.tekst-vragen-groot {
+    font-size: 24px;
+}
+
+.tekst-vragen-klein {
+    font-size: 10px;
+}
+
+.contact-mij-bereiken-box {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 5px solid #000000;
+    cursor: pointer;
+}
+
+.contact-mij-bereiken-box-tekst {
+    font-size: 34px;
+}
+
+.contact-mij-bereiken-box-tekst-email {
+    font-size: 34px;
+    margin-top: 50px;
+}
+
+.logos {
+    width: 133px;
+    height: 126px;
+}
+
+.logos-mail {
+    width: 162px;
+    height: 240px;
+}
+
+.logos-tel {
+    width: 72px;
+    height: 130px;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -1198,11 +1285,10 @@ a {
         flex-direction: column;
         width: 1324px;
         gap: 25px;
-        margin-top: 78px; 
+        margin-top: 78px;
     }
 
     .recht-streep {
-        background-color: #000000;
         width: 46px;
         height: 232px;
         border-radius: 1000px;
@@ -1211,18 +1297,12 @@ a {
     }
 
     .tekst-groot {
-        color: #DEDEDE;
         font-size: 26px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
         margin-left: 10px;
     }
-    
+
     .tekst-klein {
-        color: #DEDEDE;
         font-size: 18px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
         margin-left: 10px;
     }
 }
