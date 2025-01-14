@@ -229,19 +229,17 @@ a {
 .inleiding-naam-groot {
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
-    font-style: bold;
     color: #E8E8E8;
     margin-top: 130px;
-    margin-bottom: 30px;
     cursor: default;
 }
 
 .inleiding-naam-klein {
     font-family: "Montserrat", sans-serif;
     font-size: 55px;
-    font-style: bold;
     color: #C6C6C6;
     cursor: default;
+    margin-top: 30px;
 }
 
 /* Eind body home */
@@ -283,7 +281,7 @@ a {
 
 .tekst-klein {
     color: #DEDEDE;
-    font-size: 55px;
+    font-size: 40px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     cursor: default;
@@ -387,7 +385,7 @@ a {
 .tekst-pinkgoose-klein {
     width: 640px;
     height: 100px;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 50px;
 }
 
@@ -550,7 +548,6 @@ a {
     display: flex;
     justify-content: center;
     gap: 20px;
-    background-color: #26262E;
     padding: 20px 0;
 }
 
@@ -579,7 +576,6 @@ a {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
-    background-color: #26262E;
     padding: 20px 0;
     margin-right: 20px;
     position: fixed;
@@ -675,6 +671,12 @@ a {
     .inleiding-naam-klein {
         font-size: 35px;
     }
+     /* --------about--------*/
+
+    .tekst-klein {
+        font-size: 35px;
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (max-width: 1500px) {
@@ -686,7 +688,6 @@ a {
 
     .buttons-header {
         display: flex;
-        align-items: top;
         justify-content: center;
         margin-right: 0px;
         height: 212px;
@@ -736,7 +737,7 @@ a {
     }
 
     .tekst-klein {
-        font-size: 38px;
+        font-size: 28px;
         margin-left: 10px;
     }
 }
@@ -845,7 +846,7 @@ a {
     }
 
     .tekst-klein {
-        font-size: 38px;
+        font-size: 28px;
         margin-left: 10px;
     }
 }
@@ -883,7 +884,6 @@ a {
 
     .buttons-header {
         display: flex;
-        align-items: top;
         justify-content: center;
         margin-right: 0px;
         height: 212px;
@@ -1004,7 +1004,7 @@ a {
     }
 
     .tekst-klein {
-        font-size: 28px;
+        font-size: 21px;
         margin-left: 10px;
     }
 
@@ -1122,7 +1122,7 @@ a {
     }
 
     .tekst-klein {
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 10px;
     }
 
@@ -1302,7 +1302,7 @@ a {
     }
 
     .tekst-klein {
-        font-size: 18px;
+        font-size: 12px;
         margin-left: 10px;
     }
 }
