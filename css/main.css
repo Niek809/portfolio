@@ -4,9 +4,26 @@
     box-sizing: border-box;
 }
 
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
 .body-home {
     background-color: #26262E;
     height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
 }
 
 .body-about {
@@ -35,6 +52,20 @@ a {
     height: 15px;
     background-color: #000000;
     position: absolute;
+}
+
+.clock {
+    font-size: 5em; 
+    font-weight: bold;
+    padding: 10px; 
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 700px; 
+    height: 215px; 
+    box-sizing: border-box; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .naam-header {
@@ -680,11 +711,10 @@ a {
 }
 
 @media only screen and (max-width: 1500px) {
-
     /* --------header--------*/
-    .naam-header {
+    .clock {
         display: none;
-    }
+      }
 
     .buttons-header {
         display: flex;
